@@ -2083,9 +2083,15 @@ def _reduce_to_unit(divider: str) -> str:
     return divider  # return original if smaller unit not found
 
 
-def getDiv():
+def getDiv(num: str) -> str:
+    """
+    Returns a divider according to its number.
+    
+    :param num: The number of the divider
+    :return: A divider string
+    :rtype: str
+    """
     return False
-
 
 def area4info():
     info = f"Name: {name}"
